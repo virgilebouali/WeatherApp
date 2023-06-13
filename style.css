@@ -1,0 +1,125 @@
+body {
+
+    background-image: url("https://img.freepik.com/free-vector/sky-background-pastel-paper-cut-design-vector_53876-144660.jpg?w=996&t=st=1686656926~exp=1686657526~hmac=cfa1ead342ff47647494b7ef8d249b07c662d3642d185016bcefdc88e429580f");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.card {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    background-color: #4158D0;
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);    color: #fff;
+    border-radius: 20px;
+    margin: 100px auto 0;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.search {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+
+    border: 0;
+    outline: 0;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.search button {
+
+    border: 0px;
+    outline: 0;
+    background-color: rgb(66, 95, 174);
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.search button img {
+
+    width: 35px;
+}
+
+.weather-icon {
+
+    width: 100px;
+}
+
+
+.weather h1 {
+
+    font-size: 80px;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.weather h2 {
+
+    font-size: 70px;
+    font-weight: 400px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.details {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.weather-icon2 {
+
+    margin-top: 20px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.col {
+
+    width: 50%;
+    display: block;
+}
+
+.text-details {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: auto;
+}
